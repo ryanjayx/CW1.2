@@ -18,7 +18,7 @@ public class User {
  private BankAccount bankAccount;
  private ArrayList<Double> transactionlist;
  
- public User(String n, String s, BankAccount bA, ArrayList<Double> tl)                                                       //Constructor for class User
+ public User(String n, String s, BankAccount bA, ArrayList<Double> tl)                                                       
     {
         this.name = n;
         this.surname = s;
