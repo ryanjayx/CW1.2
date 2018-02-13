@@ -25,6 +25,10 @@ public class User {
         this.bankAccount = bA;
         this.transactionlist=tl;
     }
+
+    User(String saul, String goodman, Object bankAccount, double[] SaulList) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public String getUserName(){
         return this.name+" "+this.surname;
     }
